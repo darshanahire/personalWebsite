@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favvv.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div
+        style="margin:0px;padding:0px;height:100vh;width:100vw;background-image:linear-gradient(to right,rgb(15 15 15), #071a46)">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-none" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color:white">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color:white">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#moreaboutmeid"
+                                style="color:white">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#myprojectid" style="color:white">My
+                                projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contactmeid"
+                                style="color:white">contact me</a>
+                        </li>
+                    </ul>
+                    <div style="display: flex; justify-content: center; align-items: center;">
+
+                        {{!-- <button type="button" class="btn btn-outline-light"
+                            style="margin-top: 0px;margin-right: 100px;"><a href="/download">Download
+                                Resume</a></button> --}}
+                        <a href="resume.pdf" class="btn btn-outline-light" style="margin-top: 0px;margin-right: 100px;"
+                            download="Resume">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="div-container">
+            <div class="zeroDiv">
+                <img src="img/photo2.jpg" class="Div" alt="photo">
+            </div>
+            <div class="firstDiv">
+                <h4>Hey I am,</h4>
+                <h2>Darshan Raghunath Ahire</h2>
+                <h6>Full Stack Developer | Computer Engineer | Compitative Programer</h6>
+
+                <a type="button" class="btn btn-outline-light" href="#contactmeid">Contact me</a>
+
+
+            </div>
+            <div class="secondDiv">
+                <img src="img/photo2.jpg" alt="photo">
+            </div>
+        </div>
+    </div>
+    <div id="moreaboutmeid">
+        <h1 class="center">More About Me</h1>
+        <div id="card-conainer2" class="MoreAbout-div">
+            <div style="height: 500px;">
+                <div class="row row-cols-1 row-cols-md-2 g-5">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/mern3.jpg" class="card-img-top MoreAbout-img" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="z-index: 4;">
+                            <div class="card-body">
+                                <p class="card-text">I am a Full Stack Developer with more than one year experience and
+                                    having Good Knowledge in developing applications using Node.js as Backend also Skilled in Python, C++ and C. Strong Engineering profession with Bachelor of Engineering Focus in Computer Science From Government College of Engineering And Research Awasari.
+                                </p>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+
+                                    <a href="resume.pdf" type="button" class="btn btn-outline-success"
+                                        download="resume">Download Resume</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                    <h4 class="card-title" style="text-align:center;"></h4>
+                                    <h4 style="text-align:center;">Skill IN</h4>
+                                <p class="card-text" style="text-align:center;">
+                                HTML5,
+                                CSS3,<br>
+                                BootStrap,
+                                <br>Javascript,
+                                <br>
+                                MongoDB,<br>
+                                Express.js,<br>
+                                React.js and
+                                Node.js.
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/mern.jpg" class="card-img-top MoreAbout-img" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myprojectid">
+        <h1 class="center">My Projects</h1>
+        <div id="card-conainer" class="MoreAbout-div">
+            <div style="height: 500px;">
+                <div class="row row-cols-1 row-cols-md-2 g-5">
+                    <div class="col">
+                        <div class="card cards" style="z-index: 4;">
+                            <img src="img/weatherapp.png" class="card-img-top proj-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Weather App</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content..</p>
+                                <div class="btn-parent" style="height: 50px;">
+                                    <a href="https://weather-app20001.herokuapp.com/" target="__blank"
+                                        class="btn btn-outline-success" type="button">View Project</a>
+                                </div>
+                                <a href="https://github.com/darshanahire/weather_app" target="__blank" class="readmore"
+                                    style="float: right;; text-decoration: none;">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card cards" id="covidtracker">
+                            <img src="img/covidtracker.png" class="card-img-top proj-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Covid Tracker</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content.</p>
+                                <div class="btn-parent" style="height: 50px;">
+                                    <a href="https://darshanahire.github.io/Covid_Tracker_by_Fetch_Api/"
+                                        target="__blank" class="btn btn-outline-success" type="button">View Project</a>
+                                </div>
+                                <a href="https://github.com/darshanahire/Covid_Tracker_by_Fetch_Api" target="__blank"
+                                    class="readmore" style="float: right;; text-decoration: none;">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card calCards" id="calCard">
+                            <img src="img/calculater.png" class="card-img-top proj-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">calculator</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content.</p>
+                                <div class="btn-parent" style="height: 50px;">
+                                    <a href="https://darshanahire.github.io/Calculator_in_Pure_VanillaJS/"
+                                        target="__blank" class="btn btn-outline-success" type="button">View Project</a>
+                                </div>
+                                <a href="https://github.com/darshanahire/Calculator_in_Pure_VanillaJS" target="__blank"
+                                    class="readmore" style="float: right;; text-decoration: none;">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card noteCards" id="noteCard">
+                            <img src="img/noteapp.png" class="card-img-top proj-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Note Taking App</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content.</p>
+                                <div class="btn-parent" style="height: 50px;">
+                                    <button class="btn btn-outline-success" type="button">View Project</button>
+                                </div>
+                                <a href="" target="__blank" class="readmore"
+                                    style="float: right;; text-decoration: none;">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col show-proj" id="show-proj1">
+                        <div class="card cards">
+                            <img src="img/mypostman.png" class="card-img-top proj-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">mypostman Api</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content.</p>
+                                <div class="btn-parent" style="height: 50px;">
+                                    <button class="btn btn-outline-success" type="button">View Project</button>
+                                </div>
+                                <a href="" target="__blank" class="readmore"
+                                    style="float: right;; text-decoration: none;">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col show-proj" id="show-proj2">
+                        <div class="card cards">
+                            <img src="img/library.png" class="card-img-top proj-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Library manegment website</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content.</p>
+                                <div class="btn-parent" style="height: 50px;">
+                                    <button class="btn btn-outline-success" type="button">View Project</button>
+                                </div>
+                                <a href="" target="__blank" class="readmore"
+                                    style="float: right;; text-decoration: none;">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col show-proj" id="show-proj3">
+                        <div class="card cards">
+                            <img src="img/adviser.png" class="card-img-top proj-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Adviser Website</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content.</p>
+                                <div class="btn-parent" style="height: 50px;">
+                                    <button class="btn btn-outline-success" type="button">View Project</button>
+                                </div>
+                                <a href="" target="__blank" class="readmore"
+                                    style="float: right;; text-decoration: none;">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col show-proj" id="show-proj4">
+                        <div class="card cards">
+                            <img src="img/portfolio.png" class="card-img-top proj-img" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">portfolio</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content.</p>
+                                <div class="btn-parent" style="height: 50px;">
+                                    <button class="btn btn-outline-success" type="button">View Project</button>
+                                </div>
+                                <a href="" target="__blank" class="readmore"
+                                    style="float: right;; text-decoration: none;">Read
+                                    more...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-parent" id="moreProj">
+            <button type="button" class="btn btn-outline-success " id="moreprojbtn">More Projects</button>
+        </div>
+        <div class="hiddenProjects" id="hiddenProjects"></div>
+    </div>
+    <div class="container form-container" id="contactmeid">
+        <form action="/contact" method="POST">
+            <h1 class="center">Contact Me</h1>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">First name</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                        name="fname">
+                </div>
+                <div class="col">
+                    <label for="inputEmail4" class="form-label">Last name</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="lname">
+                </div>
+            </div>
+            <form class="row g-3">
+                <div class="col-8">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="name@gmail.com" name="email">
+                </div>
+                <div class="col-md-8">
+                    <label for="Number" class="form-label">Mobile Number</label>
+                    <input type="text" class="form-control" id="inputAddress" name="mnumber">
+                </div>
+                <div class="col-12">
+                    <label for="Suggetion" class="form-label">Any Suggetion</label>
+                    <input type="text" class="form-control" id="inputCity" name="suggetion">
+                </div>
+
+                <div class="d-grid gap-2 col-6 mx-auto my-3">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+
+                </div>
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+</html>

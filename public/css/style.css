@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.color{
+    color:white;
+}
+h5{
+    text-align: center;
+}
+
+.div-container{
+    /* border: 5px solid wheat; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    z-index: -1;
+}
+.zeroDiv{
+    display: none;
+}
+.firstDiv{
+   padding-left: 50px;
+   padding-top: 150px;
+    height: 500px;
+    width: 40vw;
+    margin: auto 50px;
+    color: white;
+    /* border: 5px solid white; */
+}
+.secondDiv{
+    /* display: none; */
+    height: 500px;
+    width: 40vw;
+    color: white;
+    /* border: 5px solid white; */
+}
+.proj-img{
+    height: 150px;
+    width: 5px;
+}
+.center{
+    margin: 20px;
+    text-align: center;
+}
+.MoreAbout{
+    width:50vw;
+    /* border: 5px solid red; */
+    margin: 10px auto;
+}
+.btn{
+    margin-top: 10px;
+    align-items: center;
+}
+.readmore{
+    margin-top: 0px;
+}
+.btn-parent{
+    display: flex;
+     justify-content: center; 
+     align-items: center;
+}
+#card-conainer{
+/* border: 5px solid rgb(203, 223, 25); */
+width: 70vw;
+height: 500px;
+margin: 10px auto;
+}
+#card-conainer2{
+width: 70vw;
+height: 700px;
+margin: 10px auto;
+}
+.MoreAbout-img{
+    height: 200px;
+}
+.hiddenProjects{
+    background-color: white;
+    /* border: 5px solid red; */
+    height: 100px;
+    /* margin-top: 200px; */
+    z-index: 3;
+    box-shadow: 0px -60px 299px 201px white;
+}
+.card{
+    z-index: -1;
+}
+.show-proj{
+    display: none;
+    width: 100vw;
+    /* border: 5px solid black; */
+}
+.cards{
+    transition: transform .6s;
+    z-index: 4;
+}
+#calCard,#noteCard{
+    transition: transform .6s;
+}
+.form-container{
+   margin-top:50px; 
+   width: 60vh;
+   height: 500px;
+   align-items: center;
+    /* border: 1px solid black; */
+    background-color: rgb(253, 235, 203);
+    border-radius: 10px;
+    box-shadow: 0px 0px 42px 21px ;
+}
+#calCard:hover,#noteCard:hover,.cards:hover{
+    /* z-index: 3; */
+    margin: 0 auto;
+    
+
+    transform: scale(1.06);
+}
+
+/* #calCard,#noteCard,.cards{
+    border: 5px solid yellow;
+    height: 300px;
+} */
+/* .card-body{
+    border: 5px solid rgb(255, 0, 212);
+    height: 500px;
+} */
+
+#moreProj{
+    height: 60px;
+    margin-top: 130px;
+    margin-bottom: 10px;
+}
+#contactmeid{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+@media screen and (max-width:1000px){
+    .div-container{
+        margin: 0px;
+        flex-direction: column;
+    }
+    .zeroDiv{
+        /* border: 5px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height: 100px;*/
+        width: 100vw; 
+        /* display: block; */
+    }
+    .Div{
+        /* display: none; */
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 200px;
+        width: 250px;}
+    .firstDiv{
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 30px;
+        margin: 0px;
+        width: 100vw;
+    }
+    .secondDiv{
+        display: none;
+    }
+    .MoreAbout{
+        /* margin: 20px; */
+        text-align: justify;
+        width: 80vw;
+    }
+    .MoreAbout-div{
+        /* width: 100vw; */
+        height: 1200px;
+    }
+    #card-conainer{
+        width: 90vw;
+        margin: 10px auto;
+        height: 900px;
+        }
+    #card-conainer2{
+        width: 90vw;
+        margin: 10px auto;
+        height: 1200px;
+        }
+    #covidtracker{
+        z-index: -1;
+    }
+   .center{
+       margin: 10px;
+   }
+   #calCard,#noteCard,.cards{
+       display: none;
+   }
+   .hiddenProjects{
+       width: 100vw;
+       height: 50px;
+   }
+.myproject{
+    display: none;
+}
+.btn-light{
+    margin: auto 100px;
+}
+
+.readmore{
+    font-size: 10px;
+}
+#moreProj{
+    margin-top: -50px;
+}
+.form-container{
+    border: 1px solid ;
+    border-radius: none;
+    box-shadow: none;
+    background: none;
+    margin-top:50px; 
+    width: 70vh;}
+}
