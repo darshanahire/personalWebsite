@@ -21,6 +21,10 @@ h5{
     margin-bottom: 100px;
     z-index: -1;
 }
+#downloadbtn{
+    margin-top: 0px;
+    margin-right: 100px;
+}
 .zeroDiv{
     display: none;
 }
@@ -104,11 +108,13 @@ margin: 10px auto;
 }
 .form-container{
    margin-top:50px; 
+   margin-bottom: 50px;
    width: 60vh;
    height: 500px;
    align-items: center;
     /* border: 1px solid black; */
-    background-color: rgb(253, 235, 203);
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
     border-radius: 10px;
     box-shadow: 0px 0px 42px 21px ;
 }
@@ -136,12 +142,15 @@ margin: 10px auto;
 }
 #contactmeid{
     margin-top: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 }
 @media screen and (max-width:1000px){
     .div-container{
         margin: 0px;
         flex-direction: column;
+    }
+    #downloadbtn{
+        margin: auto;
     }
     .zeroDiv{
         /* border: 5px solid red; */
@@ -156,13 +165,14 @@ margin: 10px auto;
         /* display: none; */
         margin-top: 50px;
         margin-bottom: 50px;
-        height: 200px;
-        width: 250px;}
+        height: 300px;
+        width: 350px;}
     .firstDiv{
         text-align: center;
         padding-left: 10px;
         padding-top: 30px;
         margin: 0px;
+        /* margin-top: 50px; */
         width: 100vw;
     }
     .secondDiv{
@@ -214,10 +224,22 @@ margin: 10px auto;
     margin-top: -50px;
 }
 .form-container{
-    border: 1px solid ;
+    /* border: 5px solid red; */
+    /* border: 1px solid ; */
     border-radius: none;
     box-shadow: none;
     background: none;
     margin-top:50px; 
-    width: 70vh;}
+    /* width: 100%; */
+    /* width: 70vw; */
+}
+form{
+    padding: 10px;
+    border-radius: 10px;
+    /* background-color: grey; */
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+    border: 1px solid ;
+}
 }

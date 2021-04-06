@@ -1,5 +1,6 @@
 const moreProj =document.getElementById("moreProj")
 const hiddenProjects =document.getElementById("hiddenProjects")
+const covidtracker =document.getElementById("covidtracker")
 const showProj1 =document.getElementById("show-proj1")
 const showProj2 =document.getElementById("show-proj2")
 const showProj3 =document.getElementById("show-proj3")
@@ -32,6 +33,7 @@ moreProj.addEventListener("click",()=>{
     // formContainer.style.marginTop="-100px"
     noteCard.style.zIndex=4;
     calCard.style.zIndex=4;
+    covidtracker.style.zIndex=4;
     const medialist = window.matchMedia("(max-width:1000px)")
     mediaFunc(medialist)
     medialist.addListener(mediaFunc)
