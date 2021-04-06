@@ -12,10 +12,12 @@ const cardConainer =document.getElementById("card-conainer")
 const formContainer =document.getElementById("form-container")
 const contactmeid =document.getElementById("contactmeid")
 const moreprojbtn =document.getElementById("moreprojbtn")
+const firstDiv =document.getElementById("firstDiv")
 function mediaFunc(med) {
     if (med.matches) {
-        cardConainer.style.height="2500px";
+        cardConainer.style.height="2700px";
         moreprojbtn.style.display="none";
+        firstDiv.style.marginTop="50px";
     }
     else{
         cardConainer.style.height="1550px";
